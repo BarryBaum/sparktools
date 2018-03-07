@@ -9,7 +9,7 @@ else
 fi
 export PYSPARK_DRIVER_PYTHON=ipython
 
-#pyspark params below, works for yarn and local mode 
+#pyspark params below, works for yarn and local mode
 pyspark \
         --master "yarn" \
         --driver-memory "4g" \
